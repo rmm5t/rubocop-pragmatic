@@ -1,0 +1,10 @@
+plugins:
+  - rubocop-capybara
+
+# ----------------------------------------
+
+Capybara:
+  Severity: convention
+
+Capybara/NegationMatcherAfterVisit:
+  Enabled: false # silly, and results in false-positives

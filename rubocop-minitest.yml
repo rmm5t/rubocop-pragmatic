@@ -1,0 +1,16 @@
+plugins:
+  - rubocop-minitest
+
+# ----------------------------------------
+
+Minitest:
+  Severity: convention
+
+Minitest/EmptyLineBeforeAssertionMethods:
+  Enabled: false
+
+Minitest/TestMethodName:
+  Enabled: false
+
+Minitest/MultipleAssertions:
+  Enabled: false

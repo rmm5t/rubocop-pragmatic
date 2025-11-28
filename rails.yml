@@ -1,0 +1,18 @@
+inherit_from:
+  - ruby.yml
+  - rubocop-capybara.yml
+  - rubocop-factory_bot.yml
+  - rubocop-rails.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - "config/environments/*"
+    - "config/puma.rb"
+    - "db/schema.rb"
+    - "engines/**/*"
+    - "gems/**/*"

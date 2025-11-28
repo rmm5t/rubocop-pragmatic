@@ -1,0 +1,158 @@
+# ----------------------------------------
+
+Bundler:
+  Severity: convention
+
+# ----------------------------------------
+
+Layout:
+  Severity: convention
+
+# Allows either `key` OR `table` alignment for hashes
+Layout/HashAlignment:
+  EnforcedColonStyle:
+    - key
+    - table
+  EnforcedHashRocketStyle:
+    - key
+    - table
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 150
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+
+# ----------------------------------------
+
+Lint:
+  Severity: convention
+
+# Unnecessarily noisy cop for constants that happen to be near their use in
+# private methods.
+Lint/UselessConstantScoping:
+  Enabled: false
+
+Lint/UnusedMethodArgument:
+  AllowUnusedKeywordArguments: true
+
+# ----------------------------------------
+
+Metrics:
+  Severity: refactor
+
+Metrics/AbcSize:
+  Max: 35
+
+Metrics/BlockLength:
+  Max: 50
+  Exclude:
+    - "**/*.gemspec"
+    - "**/config/routes.rb"
+    - "**/config/routes/*"
+    - "**/config/initializers/**/*"
+    - "**/lib/tasks/**/*.rake"
+    - "**/{spec,test}/**/*.rb"
+
+Metrics/ClassLength:
+  Max: 400
+  Exclude:
+    - "**/{spec,test}/**/*.rb"
+
+Metrics/CyclomaticComplexity:
+  Max: 12
+
+Metrics/MethodLength:
+  Max: 20
+  Exclude:
+    - "**/db/migrate/*"
+
+Metrics/ModuleLength:
+  Max: 400
+  Exclude:
+    - "**/{spec,test}/**/*.rb"
+
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
+Metrics/PerceivedComplexity:
+  Max: 12
+
+# ----------------------------------------
+
+Naming:
+  Severity: convention
+
+Naming/VariableNumber:
+  Enabled: false
+
+Naming/InclusiveLanguage:
+  Enabled: false
+
+Naming/MethodParameterName:
+  AllowedNames: [as, at, by, cc, db, id, if, in, io, ip, of, on, os, pp, to, x, y]
+
+# ----------------------------------------
+
+Style:
+  Severity: convention
+
+Style/AccessorGrouping:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/Encoding:
+  Enabled: false
+
+Style/FetchEnvVar:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Style/QuotedSymbols:
+  Enabled: false
+
+Style/RescueModifier:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/TernaryParentheses:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma

@@ -1,0 +1,33 @@
+plugins:
+  - rubocop-rails
+
+# ----------------------------------------
+
+Rails:
+  Severity: convention
+
+Rails/BulkChangeTable:
+  Database: postgresql
+
+Rails/I18nLocaleTexts:
+  Enabled: false
+
+Rails/LexicallyScopedActionFilter:
+  Enabled: false
+
+Rails/PluckInWhere:
+  Enabled: false
+
+Rails/RefuteMethods:
+  Enabled: false
+
+# Note: We're somewhat also using this as a "Rails/SkipsModelCallbacks" cop to
+# ensure we don't skip Active Record callbacks
+Rails/SkipsModelValidations:
+  AllowedMethods: ["touch", "toggle", "toggle!", "update_attribute"]
+  Exclude:
+    - "*/db/**/*.rb"
+    - "**/{spec,test}/**/*.rb"
+
+Rails/ThreeStateBooleanColumn:
+  Enabled: false

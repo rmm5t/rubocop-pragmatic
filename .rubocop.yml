@@ -1,0 +1,18 @@
+inherit_from:
+  - rubocop.yml
+  - rubocop-md.yml
+  - rubocop-minitest.yml
+  - rubocop-packaging.yml
+  - rubocop-performance.yml
+  - rubocop-capybara.yml
+  - rubocop-factory_bot.yml
+  - rubocop-faker.yml
+  - rubocop-rails.yml
+  - rubocop-rake.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  NewCops: enable

@@ -1,0 +1,7 @@
+plugins:
+  - rubocop-faker
+
+# ----------------------------------------
+
+Faker:
+  Severity: convention

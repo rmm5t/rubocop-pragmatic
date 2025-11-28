@@ -1,0 +1,7 @@
+plugins:
+  - rubocop-packaging
+
+# ----------------------------------------
+
+Packaging:
+  Severity: convention

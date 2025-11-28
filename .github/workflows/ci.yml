@@ -1,0 +1,26 @@
+name: CI
+
+on: [push, workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby: ["3.3", "3.4"]
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+          bundler-cache: true
+      - name: Lint all
+        run: bin/rubocop -f github
+      - name: Lint rails
+        run: bin/rubocop -f github -c rails.yml
+      - name: Lint ruby
+        run: bin/rubocop -f github -c ruby.yml

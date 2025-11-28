@@ -1,0 +1,7 @@
+plugins:
+  - rubocop-rake
+
+# ----------------------------------------
+
+Rake:
+  Severity: convention

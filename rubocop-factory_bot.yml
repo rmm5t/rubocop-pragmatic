@@ -1,0 +1,10 @@
+plugins:
+  - rubocop-factory_bot
+
+# ----------------------------------------
+
+FactoryBot:
+  Severity: convention
+
+FactoryBot/CreateList: # silly correction recommendations as of rubocop-factory_bot v2.23.1
+  Enabled: false

@@ -1,0 +1,7 @@
+plugins:
+  - rubocop-md
+
+# ----------------------------------------
+
+Markdown:
+  Severity: convention

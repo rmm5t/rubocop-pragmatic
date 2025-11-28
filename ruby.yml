@@ -1,0 +1,23 @@
+inherit_from:
+  - rubocop.yml
+  - rubocop-faker.yml
+  - rubocop-md.yml
+  - rubocop-minitest.yml
+  - rubocop-packaging.yml
+  - rubocop-performance.yml
+  - rubocop-rake.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - "bin/*"
+    - "log/**/*"
+    - "node_modules/**/*"
+    - "reports/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+    - ".vendor/**/*"

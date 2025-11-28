@@ -1,0 +1,10 @@
+plugins:
+  - rubocop-performance
+
+# ----------------------------------------
+
+Performance:
+  Severity: refactor
+
+Performance/BigDecimalWithNumericArgument:
+  Enabled: false
