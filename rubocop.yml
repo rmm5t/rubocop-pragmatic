@@ -72,6 +72,7 @@ Metrics/MethodLength:
   Max: 20
   Exclude:
     - "**/db/migrate/*"
+    - "**/{spec,test}/**/*.rb"
 
 Metrics/ModuleLength:
   Max: 400
