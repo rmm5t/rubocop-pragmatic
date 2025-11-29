@@ -5,8 +5,10 @@ inherit_from:
   - rubocop-packaging.yml
   - rubocop-performance.yml
   - rubocop-capybara.yml
+  - rubocop-erb.yml
   - rubocop-factory_bot.yml
   - rubocop-faker.yml
+  - rubocop-haml.yml
   - rubocop-rails.yml
   - rubocop-rake.yml
 

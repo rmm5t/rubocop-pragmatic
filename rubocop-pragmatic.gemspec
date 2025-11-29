@@ -38,6 +38,8 @@ Gem::Specification.new do |spec|
 
   # More Rails specific
   spec.add_dependency "rubocop-capybara",    "~> 2.22"
+  spec.add_dependency "rubocop-erb",         "~> 0.7"
   spec.add_dependency "rubocop-factory_bot", "~> 2.28"
+  spec.add_dependency "rubocop-haml",        "~> 0.3"
   spec.add_dependency "rubocop-rails",       "~> 2.34"
 end

@@ -1,7 +1,9 @@
 inherit_from:
   - ruby.yml
   - rubocop-capybara.yml
+  - rubocop-erb.yml
   - rubocop-factory_bot.yml
+  - rubocop-haml.yml
   - rubocop-rails.yml
 
 inherit_mode:

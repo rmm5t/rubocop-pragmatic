@@ -1,0 +1,7 @@
+plugins:
+  - rubocop-haml
+
+# ----------------------------------------
+
+Haml:
+  Severity: convention

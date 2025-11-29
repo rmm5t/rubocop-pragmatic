@@ -1,0 +1,7 @@
+plugins:
+  - rubocop-erb
+
+# ----------------------------------------
+
+Erb:
+  Severity: convention
