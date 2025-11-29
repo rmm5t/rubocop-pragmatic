@@ -1,5 +1,7 @@
 # Pragmatic Ruby Styling for Projects
 
+[![Gem Version](https://badge.fury.io/rb/rubocop-pragmatic.svg)](https://badge.fury.io/rb/rubocop-pragmatic) [![CI](https://github.com/rmm5t/rubocop-pragmatic/actions/workflows/ci.yml/badge.svg)](https://github.com/rmm5t/rubocop-pragmatic/actions/workflows/ci.yml)
+
 ## Installation
 
 ```ruby
