@@ -56,6 +56,9 @@ inherit_gem:
     - ruby.yml
     - rubocop-rspec.yml
 
+Minitest:
+  Enabled: false
+
 # Your own specialized rules go here
 ```
 
