@@ -6,6 +6,7 @@ plugins:
 Rails:
   Severity: convention
 
+# Override as necessary
 Rails/BulkChangeTable:
   Database: postgresql
 

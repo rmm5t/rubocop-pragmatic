@@ -6,5 +6,6 @@ plugins:
 Capybara:
   Severity: convention
 
+# Silly, and results in false-positives
 Capybara/NegationMatcherAfterVisit:
-  Enabled: false # silly, and results in false-positives
+  Enabled: false

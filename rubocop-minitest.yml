@@ -9,8 +9,10 @@ Minitest:
 Minitest/EmptyLineBeforeAssertionMethods:
   Enabled: false
 
+# Prefer Minitest::Spec syntax
 Minitest/TestMethodName:
   Enabled: false
 
+# Result in slower specs with little benefit
 Minitest/MultipleAssertions:
   Enabled: false
