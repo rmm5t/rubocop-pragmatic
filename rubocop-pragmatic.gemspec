@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop-packaging",   "~> 0.6"
   spec.add_dependency "rubocop-performance", "~> 1.26"
   spec.add_dependency "rubocop-rake",        "~> 0.7"
+  spec.add_dependency "rubocop-rspec",       "~> 3.8"
 
   # More Rails specific
   spec.add_dependency "rubocop-capybara",    "~> 2.22"

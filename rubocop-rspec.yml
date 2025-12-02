@@ -1,0 +1,15 @@
+plugins:
+  - rubocop-rspec
+
+# ----------------------------------------
+
+RSpec:
+  Severity: convention
+
+# Too pedantic
+RSpec/IndexedLet:
+  Enabled: false
+
+# Result in slower specs with little benefit
+RSpec/MultipleExpectations:
+  Enabled: false

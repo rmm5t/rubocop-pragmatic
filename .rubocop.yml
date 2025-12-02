@@ -11,6 +11,7 @@ inherit_from:
   - rubocop-haml.yml
   - rubocop-rails.yml
   - rubocop-rake.yml
+  - rubocop-rspec.yml
 
 inherit_mode:
   merge:

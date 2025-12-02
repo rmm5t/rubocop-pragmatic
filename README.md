@@ -48,6 +48,17 @@ inherit_mode:
 # Your own specialized rules go here
 ```
 
+`rubocop-pragmatic` is opionated about minitest, but offers the option to customize with `rubocop-rspec`:
+
+```yml
+inherit_gem:
+  rubocop-pragmatic:
+    - ruby.yml
+    - rubocop-rspec.yml
+
+# Your own specialized rules go here
+```
+
 ## License
 
 [MIT License](https://rmm5t.mit-license.org/)
