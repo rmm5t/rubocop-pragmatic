@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+-
+
+## [0.3.0] - 2025-12-02
+
+- Add optionally rubocop-rspec support
+
 ## [0.2.2] - 2025-11-30
 
 - Add backwards compatible support for Ruby 3.2
