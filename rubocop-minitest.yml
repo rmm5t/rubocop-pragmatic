@@ -17,3 +17,6 @@ Minitest/MultipleAssertions:
 
 Minitest/AssertPredicate:
   Enabled: false
+
+Minitest/RefutePredicate:
+  Enabled: false
