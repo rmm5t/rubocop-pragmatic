@@ -12,6 +12,7 @@ inherit_from:
   - rubocop-rails.yml
   - rubocop-rake.yml
   - rubocop-rspec.yml
+  - rubocop-rspec_rails.yml
 
 inherit_mode:
   merge:

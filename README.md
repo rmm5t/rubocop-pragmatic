@@ -57,13 +57,14 @@ inherit_mode:
 # Your own specialized rules go here
 ```
 
-`rubocop-pragmatic` is opionated about minitest, but offers the option to customize with `rubocop-rspec`:
+`rubocop-pragmatic` is opionated about minitest, but offers the option to customize with `rubocop-rspec` and `rubocop-rspec_rails`:
 
 ```yml
 inherit_gem:
   rubocop-pragmatic:
-    - ruby.yml
+    - rails.yml
     - rubocop-rspec.yml
+    - rubocop-rspec_rails.yml
 
 Minitest:
   Enabled: false

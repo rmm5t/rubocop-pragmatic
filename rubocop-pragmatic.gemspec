@@ -43,4 +43,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop-factory_bot", "~> 2.28"
   spec.add_dependency "rubocop-haml",        "~> 0.3"
   spec.add_dependency "rubocop-rails",       "~> 2.34"
+  spec.add_dependency "rubocop-rspec_rails", "~> 2.32"
 end
