@@ -2,6 +2,11 @@
 
 -
 
+## [0.3.1] - 2025-12-03
+
+- Disable Minitest/AssertPredicate
+- Disable Minitest/RefutePredicate
+
 ## [0.3.0] - 2025-12-02
 
 - Add optional rubocop-rspec support
