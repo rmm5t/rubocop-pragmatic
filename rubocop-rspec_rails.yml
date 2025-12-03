@@ -1,0 +1,7 @@
+plugins:
+  - rubocop-rspec_rails
+
+# ----------------------------------------
+
+RSpecRails:
+  Severity: convention
