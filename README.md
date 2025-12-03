@@ -1,8 +1,8 @@
 # Pragmatic Ruby Styling for Projects
 
-[![Gem Version](http://img.shields.io/gem/v/rubocop-pragmatic.svg)](https://rubygems.org/gems/strip_attributes)
+[![Gem Version](http://img.shields.io/gem/v/rubocop-pragmatic.svg)](https://rubygems.org/gems/rubocop-pragmatic)
 [![CI](https://github.com/rmm5t/rubocop-pragmatic/actions/workflows/ci.yml/badge.svg)](https://github.com/rmm5t/rubocop-pragmatic/actions/workflows/ci.yml)
-[![Gem Downloads](https://img.shields.io/gem/dt/rubocop-pragmatic.svg)](https://rubygems.org/gems/strip_attributes)
+[![Gem Downloads](https://img.shields.io/gem/dt/rubocop-pragmatic.svg)](https://rubygems.org/gems/rubocop-pragmatic)
 
 ## Installation
 
