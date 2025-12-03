@@ -16,3 +16,9 @@ Minitest/TestMethodName:
 # Result in slower specs with little benefit
 Minitest/MultipleAssertions:
   Enabled: false
+
+Minitest/AssertPredicate:
+  Enabled: false
+
+Minitest/RefutePredicate:
+  Enabled: false
