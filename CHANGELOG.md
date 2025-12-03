@@ -2,6 +2,10 @@
 
 -
 
+## [0.4.0] - 2025-12-03
+
+- Add rubocop-rspec_rails support
+
 ## [0.3.1] - 2025-12-03
 
 - Disable Minitest/AssertPredicate
