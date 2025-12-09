@@ -5,3 +5,5 @@ plugins:
 
 Markdown:
   Severity: convention
+  # only format codeblocks with ```ruby
+  Autodetect: false
