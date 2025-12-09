@@ -2,6 +2,10 @@
 
 -
 
+## [0.4.2] - 2025-12-08
+
+- Add `a`, `b` to `Naming/MethodParameterName`
+
 ## [0.4.1] - 2025-12-08
 
 - Only lint markdown with ```ruby blocks
