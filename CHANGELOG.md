@@ -2,6 +2,10 @@
 
 -
 
+## [0.4.1] - 2025-12-08
+
+- Only lint markdown with ```ruby blocks
+
 ## [0.4.0] - 2025-12-03
 
 - Add rubocop-rspec_rails support
