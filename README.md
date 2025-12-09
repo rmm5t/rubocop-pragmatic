@@ -6,7 +6,7 @@
 
 Setting up a new project with [Rubocop](https://rubocop.org/) can take some
 time. There are several decisions to make and many plugins to consider. This
-gem attempts to alleviate some of this hassle by both currating a default set
+gem attempts to alleviate some of this hassle by both curating a default set
 of plugins and a default set of config overrides. Rubocop's defaults are
 usually top notch, but there are a few areas where the cops might be
 considered a little too pedantic and/or strict. This gem attempts to find a
