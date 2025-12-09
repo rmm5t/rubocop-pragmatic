@@ -101,6 +101,11 @@ Naming/MethodParameterName:
 
 # ----------------------------------------
 
+Security:
+  Severity: convention
+
+# ----------------------------------------
+
 Style:
   Severity: convention
 
