@@ -97,7 +97,7 @@ Naming/InclusiveLanguage:
   Enabled: false
 
 Naming/MethodParameterName:
-  AllowedNames: [as, at, by, cc, db, id, if, in, io, ip, of, on, os, pp, to, x, y]
+  AllowedNames: [as, at, by, cc, db, id, if, in, io, ip, of, on, os, pp, to, a, b, x, y]
 
 # ----------------------------------------
 
