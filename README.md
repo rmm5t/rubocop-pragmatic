@@ -75,10 +75,11 @@ Minitest:
 ## Fail Level Recommendation
 
 It's also recommended to set `--fail-level=convention`. `Metrics` and
-`Performance` cops run at the "refactor" level while all other cops run at the
-"convention" level. This is intentional as to not return an failure exit code
-for `Metrics` or `Performance` cops. e.g. Sometimes, these cops need to be
-ignored while dealing with hotfixes, etc.
+`Performance` cops run at the "refactor" severity level while all other cops
+run at the "convention" severity level by default. This is intentional as to
+not return a failure exit code for `Metrics` or `Performance`
+cops. e.g. Sometimes, these cops need to be ignored while dealing with
+hotfixes or emergency PRs etc.
 
 This can be set on a project by adding a `.rubocop` file in the root of your
 project:
