@@ -16,8 +16,8 @@ AllCops:
   Exclude:
     - "bin/*"
     - "log/**/*"
-    - "node_modules/**/*"
     - "reports/**/*"
     - "tmp/**/*"
-    - "vendor/**/*"
-    - ".vendor/**/*"
+    - "**/node_modules/**/*"
+    - "**/vendor/**/*"
+    - "**/.vendor/**/*"
