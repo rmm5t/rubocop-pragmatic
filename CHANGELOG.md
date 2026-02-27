@@ -2,6 +2,10 @@
 
 -
 
+## [0.5.0] - 2026-02-27
+
+- Exclude Style/OneClassPerFile in test/ and spec/
+
 ## [0.4.2] - 2025-12-08
 
 - Add `a`, `b` to `Naming/MethodParameterName`
