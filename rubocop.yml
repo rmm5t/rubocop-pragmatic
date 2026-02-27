@@ -136,6 +136,10 @@ Style/FrozenStringLiteralComment:
 Style/MultilineBlockChain:
   Enabled: false
 
+Style/OneClassPerFile:
+  Exclude:
+    - "**/{spec,test}/**/*.rb"
+
 Style/PercentLiteralDelimiters:
   Enabled: false
 
