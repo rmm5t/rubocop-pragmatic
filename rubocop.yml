@@ -140,6 +140,9 @@ Style/OneClassPerFile:
   Exclude:
     - "**/{spec,test}/**/*.rb"
 
+Style/NumberedParametersLimit:
+  Max: 2
+
 Style/PercentLiteralDelimiters:
   Enabled: false
 
