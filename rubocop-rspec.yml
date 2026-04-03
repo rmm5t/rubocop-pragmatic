@@ -6,6 +6,10 @@ plugins:
 RSpec:
   Severity: convention
 
+# Generally unnecessary
+RSpec/ExampleLength:
+  Enabled: false
+
 # Too pedantic
 RSpec/IndexedLet:
   Enabled: false
