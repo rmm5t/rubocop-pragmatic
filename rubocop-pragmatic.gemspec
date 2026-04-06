@@ -3,7 +3,7 @@ require_relative "lib/rubocop/pragmatic/version"
 Gem::Specification.new do |spec|
   authors = {
     "Ryan McGeary"        => "ryan@mcgeary.org",
-    "Beshad Talayeminaei" => "btalayeminaei@gmail.com ",
+    "Beshad Talayeminaei" => "btalayeminaei@gmail.com",
     "Dylan Poole"         => "dylanb0708@gmail.com",
   }
   username = "rmm5t"
