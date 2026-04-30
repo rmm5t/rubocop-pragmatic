@@ -7,5 +7,5 @@ Capybara:
   Severity: convention
 
 # Silly, and results in false-positives
-Capybara/NegationMatcherAfterVisit:
+Capybara/RSpec/NegationMatcherAfterVisit:
   Enabled: false
