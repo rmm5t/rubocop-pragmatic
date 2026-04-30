@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com//), and thi
 
 ## [Unreleased] - TBD
 
--
+- Bump dependency on rubocop-capybara
 
 ## [0.6.2] - 2026-04-30
 
