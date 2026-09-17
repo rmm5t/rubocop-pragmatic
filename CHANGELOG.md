@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com//), and thi
 
 -
 
+## [0.7.1] - 2026-09-17
+
+- Allow class_methods for Metrics/BlockLength
+
 ## [0.7.0] - 2026-04-30
 
 - Bump dependency on rubocop-capybara
@@ -63,8 +67,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com//), and thi
 
 - Initial release
 
-[Unreleased]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.7.0..HEAD
+[Unreleased]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.7.1..HEAD
 
+[0.7.1]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.7.0..v0.7.1
 [0.7.0]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.6.2..v0.7.0
 [0.6.2]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.6.1..v0.6.2
 [0.6.1]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.6.0..v0.6.1
