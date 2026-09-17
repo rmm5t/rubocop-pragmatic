@@ -52,6 +52,9 @@ Metrics/AbcSize:
 
 Metrics/BlockLength:
   Max: 50
+  AllowedMethods:
+    - "refine"
+    - "class_methods"
   Exclude:
     - "**/*.gemspec"
     - "**/config/routes.rb"
