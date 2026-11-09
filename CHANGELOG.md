@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com//), and thi
 
 -
 
+## [0.8.1] - 2026-11-09
+
+- Remove support for Ruby 3.2 (EOL)
+
 ## [0.8.0] - 2026-11-09
 
 - Bump rubocop-md and rubocop-capybara dependencies
@@ -71,8 +75,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com//), and thi
 
 - Initial release
 
-[Unreleased]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.8.0..HEAD
+[Unreleased]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.8.1..HEAD
 
+[0.8.1]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.8.1..v0.8.1
 [0.8.0]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.7.1..v0.8.0
 [0.7.1]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.7.0..v0.7.1
 [0.7.0]: https://github.com/rmm5t/rubocop-pragmatic/compare/v0.6.2..v0.7.0
